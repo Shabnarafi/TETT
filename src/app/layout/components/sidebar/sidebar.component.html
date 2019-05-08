@@ -1,0 +1,57 @@
+<nav class="sidebar" [ngClass]="{sidebarPushRight: isActive, collapsed: collapsed}">
+    <div class="list-group" *ngFor="let menu of menus">
+        <a routerLink= "/{{ menu.link }}" [routerLinkActive]="['router-link-active']" class="list-group-item" *ngIf="menu.title !== 'Courses'">
+            <span>{{ menu.title }}</span>
+        </a>
+        <div class="nested-menu" *ngIf="menu.title === 'Courses'">
+            <a routerLink="/{{ menu.link }}" [routerLinkActive]="['router-link-active']" class="list-group-item" (click)="addExpandClass('pages')">
+                <i class="fa fa-plus"></i>&nbsp;
+                <span>{{ menu.title }}</span>
+            </a>
+            <li class="nested" [class.expand]="showMenu === 'pages'" *ngFor="let submenu of menu.subMenu">
+                <ul class="submenu">
+                    <li>
+                        <a routerLink="/{{ submenu.link }}" [routerLinkActive]="['router-link-active']" class="list-group-item">
+                            <span>{{ submenu.title }}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </div>
+        <div class="header-fields">
+            <div class="nested-menu">
+                <a class="list-group-item" (click)="addExpandClass('profile')">
+                    <span><i class="fa fa-user"></i>&nbsp; currentUser.name </span>
+                </a>
+                <li class="nested" [class.expand]="showMenu === 'profile'">
+                    <ul class="submenu">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span><i class="fa fa-fw fa-user"></i> {{ 'Profile' | translate }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span><i class="fa fa-fw fa-envelope"></i> {{ 'Inbox' | translate }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span><i class="fa fa-fw fa-gear"></i> {{ 'Settings' | translate }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/login']" (click)="onLoggedout()">
+                                <span><i class="fa fa-fw fa-power-off"></i> {{ 'Log Out' | translate }}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="toggle-button" [ngClass]="{collapsed: collapsed}" (click)="toggleCollapsed()">
+        <i class="fa fa-fw fa-angle-double-left"></i>&nbsp;
+        <span>{{ 'Collapse Sidebar' | translate }}</span>
+    </div>
+</nav>

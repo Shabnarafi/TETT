@@ -1,0 +1,180 @@
+{
+  "userList": [
+      {
+        "name": "Shabna",
+        "role": "user",
+        "email": "user1@user.com",
+        "picture": "assets/images/alan.png"
+      },
+      {
+        "name": "Sabin S",
+        "email": "sabin.s@tataelxsi.co.in",
+        "role": "admin",
+        "picture": "assets/images/nick.png"
+      },
+      {
+        "name": "Rahul M G",
+        "role": "admin",
+        "email": "Rahul.g@tataelxsi.co.in",
+        "picture": "assets/images/eva.png"
+      },
+      {
+        "name": "Linda",
+        "email": "Linda@tataelxsi.co.in",
+        "role": "user",
+        "picture": "assets/images/kate.png"
+      },
+      {
+        "name": "Admin",
+        "role": "admin",
+        "email": "admin@test.com",
+        "picture": "assets/images/eva.png"
+      },
+      {
+        "name": "User",
+        "email": "user2@user.com",
+        "role": "user",
+        "picture": "assets/images/kate.png"
+      }
+    ],
+
+    "courses": [
+      {
+        "admin": "Admin",
+        "addedCourses": [
+          {
+          "name":  "HTML5",
+          "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+          "count": "10",
+          "enrolledUsers": "2"
+          },
+          {
+            "name":  "CSS",
+            "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+            "count": "10",
+            "enrolledUsers": "2"
+          },
+          {
+            "name":  "HTML5",
+            "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+            "count": "10",
+            "enrolledUsers": "2"
+          }
+      ]
+      },
+      {
+        "admin": "Rahul M G",
+        "name": "CSS",
+        "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+        "count": "10",
+        "enrolledUsers": "2"
+      },
+      {
+        "admin": "Sabin S",
+        "name": "Javascript",
+        "subTopics": ["Basic Javascript", "JS Forms", "JS Objects", "JS Functions", "JS HTML DOM", "JS BOM", "JS AJAX"],
+        "count": "10",
+        "enrolledUsers": "2"
+      }
+
+    ],
+
+    "addedCourses": [
+      {
+      "name":  "HTML5",
+      "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+      "count": "10",
+      "enrolledUsers": "2"
+      },
+      {
+        "name":  "CSS",
+        "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+        "count": "10",
+        "enrolledUsers": "2"
+      },
+      {
+        "name":  "HTML5",
+        "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+        "count": "10",
+        "enrolledUsers": "2"
+      },
+      {
+        "name":  "HTML5",
+        "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+        "count": "10",
+        "enrolledUsers": "2"
+        },
+        {
+          "name":  "CSS",
+          "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+          "count": "10",
+          "enrolledUsers": "2"
+        },
+        {
+          "name":  "HTML5",
+          "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+          "count": "10",
+          "enrolledUsers": "2"
+        },
+        {
+          "name":  "HTML5",
+          "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+          "count": "10",
+          "enrolledUsers": "2"
+          },
+          {
+            "name":  "CSS",
+            "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+            "count": "10",
+            "enrolledUsers": "2"
+          },
+          {
+            "name":  "HTML5",
+            "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+            "count": "10",
+            "enrolledUsers": "2"
+          },
+          {
+            "name":  "HTML5",
+            "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+            "count": "10",
+            "enrolledUsers": "2"
+            },
+            {
+              "name":  "CSS",
+              "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+              "count": "10",
+              "enrolledUsers": "2"
+            },
+            {
+              "name":  "HTML5",
+              "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+              "count": "10",
+              "enrolledUsers": "2"
+            },
+            {
+              "name":  "HTML5",
+              "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+              "count": "10",
+              "enrolledUsers": "2"
+              },
+              {
+                "name":  "CSS",
+                "subTopics": ["Introduction to CS3", "CSS Responsive", "CSS Advanced", "CSS Grid"],
+                "count": "10",
+                "enrolledUsers": "2"
+              },
+              {
+                "name":  "HTML5",
+                "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+                "count": "10",
+                "enrolledUsers": "2"
+              },
+              {
+                "name":  "Angular",
+                "subTopics": ["Basic of HTML", "Introduction To HTML", "HTML Forms", "HTML Graphics", "HTML Media", "HTML APIs"],
+                "count": "10",
+                "enrolledUsers": "2"
+              }
+  ]
+}

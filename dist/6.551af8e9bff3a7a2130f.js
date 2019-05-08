@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{pDeA:function(n,a,o){"use strict";o.r(a);var r=o("CcnG"),u=function(){},c=o("Ip0R");o.d(a,"CoursesModuleNgFactory",function(){return t});var t=r.Ka(u,[],function(n){return r.Ua([r.Va(512,r.j,r.Z,[[8,[]],[3,r.j],r.v]),r.Va(4608,c.l,c.k,[r.s,[2,c.r]]),r.Va(1073742336,c.b,c.b,[]),r.Va(1073742336,u,u,[])])})}}]);
